@@ -16,6 +16,8 @@ jobs:
       - name: Install dependencies
         run: npm install -g pnpm && pnpm install
       - name: Build and run Next.js app
+        env:
+          SOME_ENV_VAR: foo
         run: |
           pnpm build
           pnpm start &
