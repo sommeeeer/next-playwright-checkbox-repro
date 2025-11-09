@@ -1,3 +1,8 @@
-# App Pages Router
+To make the playwright flake:
+```bash
+pnpm next build && pnpm next start
+```
 
-This project uses both the App and Pages router.
+Then in another shell
+````bash
+bash run.sh
